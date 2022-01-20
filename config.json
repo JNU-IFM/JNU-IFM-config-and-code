@@ -1,0 +1,180 @@
+{
+    "Config": {
+        "Ambient": 0.3,
+        "CanRepeatLabel": false,
+        "Diffuse": 0.6,
+        "ExcludeFileSuffixList": "",
+        "FileTagTitle1": "",
+        "FileTagTitle2": "",
+        "FileTagTitle3": "",
+        "IsLoadDicomToVideo": false,
+        "IsSaveSrcFile": true,
+        "KEY": "",
+        "LabelSavePath": "",
+        "LandMark3DScale": 1.0,
+        "LandMarkActorScale": 1.0,
+        "PlayInterval": 100,
+        "PolyPointScale": 1.0,
+        "Record_Time": 5,
+        "RectActorScale": 1.0,
+        "SegModelPaths": null,
+        "SliceCount": 1,
+        "SliceSpacing": 1.0,
+        "Specular": 0.1,
+        "zh_CN": {
+            "Ambient": "环境光系数",
+            "CanRepeatLabel": "可重复标记",
+            "Diffuse": "漫反射系数",
+            "ExcludeFileSuffixList": "文件夹排除后缀",
+            "FileTagTitle1": "父Tag名称",
+            "FileTagTitle2": "附加Tag名称",
+            "FileTagTitle3": "子Tag名称",
+            "IsLoadDicomToVideo": "加载DICOM为视频",
+            "IsSaveSrcFile": "是否保存源文件",
+            "KEY": "加密码",
+            "LandMark3DScale": "3D场景点缩放",
+            "LandMarkActorScale": "点标注缩放",
+            "PlayInterval": "播放间隔",
+            "PolyPointScale": "轮廓点缩放",
+            "Record_Time": "录屏时长",
+            "RectActorScale": "框缩放",
+            "SliceCount": "标注切面个数",
+            "SliceSpacing": "标注切面间距",
+            "Specular": "镜面反射系数"
+        }
+    },
+    "CurvePointIds": null,
+    "LabelGroup": [
+        {
+            "Childs": null,
+            "ID": 0,
+            "Type": ""
+        },
+        {
+            "Childs": [
+                7
+            ],
+            "ID": 1,
+            "Type": ""
+        },
+        {
+            "Childs": [
+                8
+            ],
+            "ID": 2,
+            "Type": ""
+        },
+        {
+            "Childs": null,
+            "ID": 3,
+            "Type": ""
+        },
+        {
+            "Childs": null,
+            "ID": 4,
+            "Type": ""
+        },
+        {
+            "Childs": null,
+            "ID": 5,
+            "Type": ""
+        },
+        {
+            "Childs": null,
+            "ID": 6,
+            "Type": ""
+        }
+    ],
+    "Models": {
+        "class ColorLabelTableModel * __ptr64": [
+            {
+                "Color": [
+                    255,
+                    0,
+                    0,
+                    255
+                ],
+                "Desc": "SP",
+                "ID": 1
+            },
+            {
+                "Color": [
+                    0,
+                    255,
+                    0,
+                    255
+                ],
+                "Desc": "Head",
+                "ID": 2
+            },
+            {
+                "Color": [
+                    255,
+                    0,
+                    255,
+                    255
+                ],
+                "Desc": "None",
+                "ID": 3
+            },
+            {
+                "Color": [
+                    255,
+                    85,
+                    0,
+                    255
+                ],
+                "Desc": "OnlySP",
+                "ID": 4
+            },
+            {
+                "Color": [
+                    0,
+                    255,
+                    255,
+                    255
+                ],
+                "Desc": "OnlyHead",
+                "ID": 5
+            },
+            {
+                "Color": [
+                    235,
+                    179,
+                    166,
+                    255
+                ],
+                "Desc": "SP+Head",
+                "ID": 6
+            },
+            {
+                "Color": [
+                    255,
+                    0,
+                    0,
+                    255
+                ],
+                "Desc": "SP",
+                "ID": 7
+            },
+            {
+                "Color": [
+                    0,
+                    255,
+                    0,
+                    255
+                ],
+                "Desc": "Head",
+                "ID": 8
+            }
+        ],
+        "class LabelDetailModel * __ptr64": {
+            "option": null,
+            "table": null
+        },
+        "class LandMarkListModel * __ptr64": {
+            "Lines": null,
+            "Points": null
+        }
+    }
+}
